@@ -4,7 +4,7 @@ const app = express()
 
 app.get('/', (request: Request, response: Response) => {
     return response.json({
-        message: 'Visual Nuts challenge'
+        message: 'Visual Nuts challenge 1'
     })
 })
 
