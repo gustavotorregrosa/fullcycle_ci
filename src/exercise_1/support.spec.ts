@@ -10,7 +10,7 @@ describe('EX_1 - division function is OK', () => {
     })
 
     it('10 is not multiple of 2 and 5', () => {
-        expect(support.isDivBy(10, [2, 5])).toBeFalsy()
+        expect(support.isDivBy(10, [2, 5])).toBeTruthy()
     })
     
     it('10 is not multiple of 2, 3 and 5', () => {
